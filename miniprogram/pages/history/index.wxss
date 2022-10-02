@@ -1,0 +1,8 @@
+/* pages/history/index.wxss */
+.warning{
+	font-size: 36rpx;
+	width: 90%;
+	margin: auto;
+	background-color: red;
+	margin-top: 20rpx;
+}

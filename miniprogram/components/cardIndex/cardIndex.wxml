@@ -1,0 +1,8 @@
+<!--components/cardIndex/cardIndex.wxml-->
+<view class="card">
+	<view class="left">
+		<view class="time">打卡时间：{{time}}</view>
+		<view class="place">打卡地点:{{place}}</view>
+	</view>
+	<icon type="success" size="28"></icon>
+</view>

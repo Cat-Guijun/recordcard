@@ -1,0 +1,51 @@
+/* pages/index/index.wxss */
+
+
+.header2 image{
+	width: 100%;
+	height: 400rpx;
+}
+
+.box{
+	width: 92%;
+	margin: auto;
+}
+#desca{
+  display: block;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 40rpx;
+  color: green;
+  margin-bottom: 70rpx;
+  
+}
+.main{
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 30rpx;
+  padding: 20rpx;
+}
+.item{
+	padding: 10rpx;
+  display: flex;
+  justify-content: flex-start;
+	margin-bottom: 15rpx;
+	border: 2rpx solid rgba(169, 169, 169,0.6);
+}
+.item:last-child{
+	border: none;
+}
+.item:last-child button{
+	width: 100%;
+}
+.item label{
+	flex: 1;
+}
+.item input{
+	flex: 3;
+
+	padding: 4rpx;
+}
+
+.item input::placeholder{
+	color: rgb(241, 38, 38);
+}
+

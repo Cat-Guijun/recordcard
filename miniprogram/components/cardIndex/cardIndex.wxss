@@ -1,0 +1,17 @@
+/* components/cardIndex/cardIndex.wxss */
+.card{
+	width: 95%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 35rpx;
+	height: 200rpx;
+	color: black;
+	border-bottom: 2rpx solid rgba(169, 169, 169,0.6);
+}
+.left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

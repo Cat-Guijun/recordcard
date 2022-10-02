@@ -1,0 +1,36 @@
+<!--pages/index/index.wxml-->
+	<view class="header2">
+	<image src="../../imgs/logo.png" mode="scaleToFill"></image>
+</view>
+<view class="box">
+<text id="desca">*填写说明：</text>
+
+<view class="main">
+    <view class="item">
+    <label for="sid">学号:</label>
+    <input type="number" id="sid" maxlength="15" placeholder="{{studentidplace}}" bindinput="bindKeyInput" value="{{studentid}}"/>
+  </view>
+  <view class="item">
+    <label for="name">姓名:</label>
+    <input type="text" id="name" maxlength="10" value="{{name}}" bindinput="bindKeyInput2"
+    placeholder="{{nameplace}}"
+    />
+  </view>
+  <view class="item">
+    <label for="catagory">院系：</label>
+    <picker value="{{sysindex}}" range="{{sysArray}}" bindchange="bindchangeSys">
+    <view class="picker">
+        {{sysArray[sysindex]}}
+    </view>
+  </picker>
+  </view>
+	<view class="item">
+		你的位置：{{place==null?"":place}}
+	</view>
+  <view class="item">
+		<button id="submit" type="primary" wx:if="{{!ischecked}}" bindtap="submitinfo">提交</button>
+		<button id="submit" type="primary" wx:else="{{ischecked}}" disabled="true" type="warn">今日已打卡</button>
+  </view>
+</view>
+</view>
+

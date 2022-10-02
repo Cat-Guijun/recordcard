@@ -1,0 +1,17 @@
+<!--pages/history/index.wxml-->
+<view>
+<text style="padding:40rpx">打卡记录：{{timelist.length}}</text>
+</view>
+<view wx:if="{{init}}">
+   <view class="warning">您还没有在此程序中打过卡请先打卡
+	 <icon type="warn" color="green"></icon>
+	 </view>
+</view>
+<scroll-view wx:else="{{!init}}">
+<cardIndex	
+	wx:for="{{timelist}}"
+	wx:key="index"
+	place="{{placelist[index]}}"
+	time="{{timelist[index]}}"
+></cardIndex>
+</scroll-view>

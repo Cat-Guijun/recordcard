@@ -1,0 +1,6 @@
+{
+	"usingComponents": {
+	"cardIndex":"../../components/cardIndex/cardIndex"
+	},
+	"navigationBarTitleText": "历史记录"
+}
