@@ -2,11 +2,11 @@
 
 # 项目效果
 
-![](.\info1.png)
+![](./info1.png)
 
 
 
-![.\info2.png](.\info2.png)
+![./info2.png](./info2.png)
 
 
 
